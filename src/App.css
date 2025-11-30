@@ -1,12 +1,12 @@
-/* Global styles for the entire page */
+
 body, #root, .App {
-  /* Set height to 100% to ensure background covers the whole viewport */
+
   min-height: 100vh;
-  /* Use the color of your bottom section */
+  
   background-color: #FFFCF9; 
 }
 
-/* Remove default margin that creates scrollbars or extra space */
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

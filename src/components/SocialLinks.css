@@ -27,17 +27,17 @@
     text-decoration: none;
     color: #333;
     border: 1px solid #e0e0e0;
-    /* Added a snappy transition for the pop effect */
+    
     transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   }
   
-  /* --- THE NEW "POP" EFFECT --- */
+  
   .social-box:hover {
-    /* scale(1.05) makes it 5% bigger. translateY(-3px) lifts it up. */
+    
     transform: scale(1.05) translateY(-3px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Stronger shadow */
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); 
     border-color: transparent;
-    z-index: 10; /* Ensures it pops ON TOP of other items */
+    z-index: 10; 
   }
   
   .icon-wrapper {
@@ -55,9 +55,9 @@
     transition: color 0.3s;
   }
   
-  /* --- YOUR CUSTOM BRAND COLORS --- */
   
-  /* 1. EMAIL */
+  
+ 
   .social-box.email:hover {
     background-color: #77d3fa;
   }
@@ -65,7 +65,7 @@
     color: #0078D4;
   }
   
-  /* 2. INSTAGRAM */
+  
   .social-box.instagram:hover {
     background-color: #fcbfd3;
   }
@@ -73,7 +73,7 @@
     color: #e1305c;
   }
   
-  /* 3. FACEBOOK */
+  
   .social-box.facebook:hover {
     background-color: #6bbaf3;
   }
@@ -81,7 +81,7 @@
     color: #1565ce;
   }
   
-  /* 4. YOUTUBE */
+  
   .social-box.youtube:hover {
     background-color: #fc778b;
   }
@@ -89,7 +89,6 @@
     color: #FF0000;
   }
   
-  /* 5. GITHUB */
   .social-box.github:hover {
     background-color: #24292e;
   }
@@ -98,7 +97,7 @@
     color: #ffffff;
   }
   
-  /* 6. X / TWITTER */
+ 
   .social-box.x:hover {
     background-color: #000000;
   }

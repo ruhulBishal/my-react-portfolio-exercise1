@@ -7,14 +7,14 @@
     color: white;
   }
   
-  /* We only need the image size now */
+  
   .logo {
     font-weight: bold;
   }
   
-  /* Styles for the new image tag */
+  
   .logo-img {
-      height: 3.3rem; /* 40px tall (using 8-point grid) */
+      height: 3.3rem; 
       width: auto;
   }
   

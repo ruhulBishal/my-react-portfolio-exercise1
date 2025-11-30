@@ -11,7 +11,7 @@ const SocialLinks = () => {
           <a
             key={item.id}
             href={item.link}
-            // Adds a specific class like "social-box youtube" or "social-box x"
+            
             className={`social-box ${item.platform.toLowerCase()}`}
             target="_blank"
             rel="noopener noreferrer"
