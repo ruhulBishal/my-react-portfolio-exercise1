@@ -1,0 +1,42 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem; 
+    background-color: #333;
+    color: white;
+  }
+  
+  /* We only need the image size now */
+  .logo {
+    font-weight: bold;
+  }
+  
+  /* Styles for the new image tag */
+  .logo-img {
+      height: 3.3rem; /* 40px tall (using 8-point grid) */
+      width: auto;
+  }
+  
+  
+  .nav-menu {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+  }
+  
+  .nav-item a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .nav-menu {
+      display: none;
+    }
+    
+    .navbar {
+      justify-content: center;
+    }
+  }

@@ -1,0 +1,108 @@
+.social-section {
+    padding: 4rem 2rem;
+    background-color: #FFFCF9;
+    text-align: center;
+  }
+  
+  .social-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .social-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .social-box {
+    display: flex;
+    align-items: center;
+    padding: 1rem 1.5rem;
+    background-color: #f4f4f4;
+    border-radius: 12px;
+    text-decoration: none;
+    color: #333;
+    border: 1px solid #e0e0e0;
+    /* Added a snappy transition for the pop effect */
+    transition: all 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  
+  /* --- THE NEW "POP" EFFECT --- */
+  .social-box:hover {
+    /* scale(1.05) makes it 5% bigger. translateY(-3px) lifts it up. */
+    transform: scale(1.05) translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.15); /* Stronger shadow */
+    border-color: transparent;
+    z-index: 10; /* Ensures it pops ON TOP of other items */
+  }
+  
+  .icon-wrapper {
+    font-size: 1.8rem;
+    margin-right: 1.5rem;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    transition: color 0.3s;
+  }
+  
+  .handle-text {
+    font-size: 1.1rem;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  /* --- YOUR CUSTOM BRAND COLORS --- */
+  
+  /* 1. EMAIL */
+  .social-box.email:hover {
+    background-color: #77d3fa;
+  }
+  .social-box.email:hover .fa-envelope {
+    color: #0078D4;
+  }
+  
+  /* 2. INSTAGRAM */
+  .social-box.instagram:hover {
+    background-color: #fcbfd3;
+  }
+  .social-box.instagram:hover .fa-instagram {
+    color: #e1305c;
+  }
+  
+  /* 3. FACEBOOK */
+  .social-box.facebook:hover {
+    background-color: #6bbaf3;
+  }
+  .social-box.facebook:hover .fa-facebook {
+    color: #1565ce;
+  }
+  
+  /* 4. YOUTUBE */
+  .social-box.youtube:hover {
+    background-color: #fc778b;
+  }
+  .social-box.youtube:hover .fa-youtube {
+    color: #FF0000;
+  }
+  
+  /* 5. GITHUB */
+  .social-box.github:hover {
+    background-color: #24292e;
+  }
+  .social-box.github:hover .fa-github,
+  .social-box.github:hover .handle-text {
+    color: #ffffff;
+  }
+  
+  /* 6. X / TWITTER */
+  .social-box.x:hover {
+    background-color: #000000;
+  }
+  .social-box.x:hover .fa-x-twitter,
+  .social-box.x:hover .handle-text {
+    color: #ffffff;
+  }
